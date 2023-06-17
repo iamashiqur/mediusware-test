@@ -9,34 +9,6 @@ const UsCountryInfo = ({ btnText, modalHead, coutrylist }) => {
   const handleShow = () => setShow(true);
   return (
     <>
-      {/* <button type="button" className="btn btn-outline-primary">
-        {btnText}
-      </button>
-
-      <div
-        className="modal fade"
-        tabIndex="-1"
-        aria-labelledby="exampleModalLabel"
-        aria-hidden="true"
-      >
-        <div className="modal-dialog">
-          <div className="modal-content">
-            <div className="modal-header">
-              <h1 className="modal-title fs-5">{modalHead}</h1>
-              <button
-                type="button"
-                className="btn-close"
-                aria-label="Close"
-              ></button>
-            </div>
-
-            <div className="modal-body">
-              <p>Modal content for {btnText}</p>
-            </div>
-
-          </div>
-        </div>
-      </div> */}
       <Button
         variant="primary"
         onClick={handleShow}

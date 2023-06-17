@@ -15,7 +15,6 @@ const CountryInfo = ({ countryDetails }) => {
       >
         {countryDetails.country.name}
       </Button>
-
       <Modal show={show} onHide={handleClose}>
         <Modal.Header closeButton>
           <Modal.Title>{countryDetails.country.name}</Modal.Title>

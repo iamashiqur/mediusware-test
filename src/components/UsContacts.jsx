@@ -12,10 +12,10 @@ const UsContacts = ({ btnText, modalHead }) => {
       .then((response) => response.json())
       .then((data) => setUsCoutnry(data.results));
   }, []);
-    const [show, setShow] = useState(false);
-    const handleClose = () => setShow(false);
+  const [show, setShow] = useState(false);
+  const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
-  
+
   console.log(uscoutnry);
 
   return (
